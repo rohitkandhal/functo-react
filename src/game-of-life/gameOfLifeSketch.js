@@ -1,4 +1,4 @@
-export const mandalaMirrorSketch = (p) => {
+export const gameOfLifeSketch = (p) => {
   // Set the size of the grid
   const gridSize = 10;
   let rows, cols, grid;

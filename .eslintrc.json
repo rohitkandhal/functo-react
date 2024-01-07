@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "import/no-unresolved": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
